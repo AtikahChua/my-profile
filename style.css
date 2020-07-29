@@ -1,0 +1,123 @@
+
+.container {
+  @media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
+}
+
+body{
+  background-color: #F0FFDE;
+  color: #696969;
+  font-family: railway, monospace;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+  div{
+    width: 500px;
+    margin: 50px auto;
+    padding: 60px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 90px;
+  }
+
+h1{
+  font-family: rubik;
+  font-weight: bolder;
+  font-size: 50px;
+  color: #ff9c71;
+}
+
+h2{
+  color: #BA55D3;
+  background-color: #FFF8DC;
+}
+
+img{
+  width: 200px;
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: #33C3FF;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover{
+  color: #D2691E;
+  background-color: white;
+}
+
+.container{
+  width: 780px;
+  margin: 40px auto;
+  background-color: #F0FFDE;
+  box-shadow: none;
+}
+
+.card-peach{
+  width: 500px;
+  background-color: #e7dfd5;
+  padding: 120px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 20%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.btn-white{
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.btn-white:hover{
+  background-color: black;
+  color: white;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li{
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i{
+  font-size: 50px;
+  color: #768287;
+}
+
+.list-inline i:hover{
+  color: black;
+}
+
+#introduction p{
+  margin-bottom: 20px;
+}
+
